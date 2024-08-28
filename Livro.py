@@ -1,6 +1,6 @@
 class Livro:
-    def __init__(self, titulo, autor, numPag, dispo):
-        self.titulo = titulo
+    def __init__(self, tit, autor, numPag, dispo):
+        self.tit = tit
         self.autor = autor
         self.numPag = numPag
         self.dispo = dispo
@@ -26,7 +26,7 @@ class Livro:
             self.dispo = True
     
     def infoLivro(self):
-        print(f"Título: {self.titulo}\nAutor: {self.autor}\nNúmero de Páginas: {self.numPag}\n")
+        print(f"Título: {self.tit}\nAutor: {self.autor}\nNúmero de Páginas: {self.numPag}\n")
 
 livro = Livro("O Homem de Giz", "C. J. Tudor", 272, True)
 
